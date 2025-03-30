@@ -1,0 +1,23 @@
+.favoritos-container {
+  display: flex;
+  width: 800px;
+  margin: 3rem auto;
+}
+
+.favoritos-container ul {
+  list-style: none;
+  gap: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.favoritos-container li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.favoritos-container div {
+  display: flex;
+  gap: 1rem;
+}

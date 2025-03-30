@@ -1,0 +1,16 @@
+.container-erro {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 80px);
+  align-items: center;
+  justify-content: center;
+}
+
+.container-erro a {
+  text-decoration: none;
+  background-color: rgb(1, 210, 210);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}

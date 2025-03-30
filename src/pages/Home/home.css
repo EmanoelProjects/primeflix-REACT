@@ -1,0 +1,39 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.filme-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0 2rem 0;
+  text-align: center;
+}
+
+.filme-container img {
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  height: 500px;
+}
+
+.filme-container a {
+  text-decoration: none;
+  background-color: rgb(23, 166, 255);
+  color: white;
+  padding: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.filme-container h2 {
+  margin-bottom: 10px;
+}
+
+.loading {
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

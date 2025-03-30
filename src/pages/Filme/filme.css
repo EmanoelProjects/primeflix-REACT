@@ -1,0 +1,37 @@
+.detalhes-container {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 80px);
+  margin: 1rem auto;
+  gap: 1rem;
+}
+
+.detalhes-container img {
+  height: 500px;
+  width: 100%;
+}
+
+.btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.btns button {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: white;
+  background-color: #999999;
+  transition: 0.8s;
+}
+
+.btns a {
+  text-decoration: none;
+  color: white;
+}
+
+.btns button:hover {
+  background-color: #4d4d4d;
+}
